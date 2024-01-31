@@ -1,0 +1,24 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "this is mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js",
+    "start:dev": "nodemon index.js",
+    "start:prud": "node --watch index.js"
+  },
+  "keywords": [
+    "hello",
+    "piyush"
+  ],
+  "author": "piyush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "mongoose-deep-populate": "^0.0.1-security",
+    "nodemon": "^3.0.3"
+  }
+}
